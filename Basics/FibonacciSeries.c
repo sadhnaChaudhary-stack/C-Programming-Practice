@@ -1,3 +1,13 @@
+// Your program starts with a and b, calculates sum = a + b, then shifts the values:
+
+// a  b  sum
+// 0  1   1
+// 1  1   2
+// 1  2   3
+// 2  3   5
+// 3  5   8
+// ...
+
 #include<stdio.h>
 #include<conio.h>
 void main()
