@@ -1,4 +1,4 @@
-// Your program starts with a and b, calculates sum = a + b, then shifts the values:
+// Q.17 Your program starts with a and b, calculates sum = a + b, then shifts the values:
 
 // a  b  sum
 // 0  1   1

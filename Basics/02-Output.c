@@ -1,12 +1,12 @@
 #include<stdio.h>
 void main(){
-  // Question 1: Print your name, age and city.
+  // Question 6: Print your name, age and city.
   printf("\nMy Name is Sadhna Chaudhary");
   printf("\nI am 21yr old");
   printf("\nAnd i am resident of Delhi");
   printf("\n");  
   
-  // Question 2: Print the following:
+  // Question 7: Print the following:
   // Name: Sadhna
   // Course: BCA
   // Semester: 4
@@ -15,7 +15,7 @@ void main(){
   printf("\nSemester: 4");
   printf("\n");  
   
-  // Question 3: Print a simple menu.
+  // Question 8: Print a simple menu.
   printf("\nBeverage Menu");
   printf("\n1. Coffee");
   printf("\n2. Tea");
