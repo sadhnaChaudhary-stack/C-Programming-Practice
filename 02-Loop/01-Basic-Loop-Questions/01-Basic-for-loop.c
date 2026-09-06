@@ -60,5 +60,37 @@ void main()
 
 
       // Q.7 Print the first n natural numbers.
-      
+      /*int n ,i ;
+      printf("Enter the Value of n : ");
+      scanf("%d",&n);
+
+      for(i=1 ; i<=n ; i++){
+        printf("\n%d",i);
+      }*/
+
+      // Q.8 Print the first n even numbers.
+
+      /*int n,i;
+      printf("Enter Value of n : ");
+      scanf("%d",&n);
+
+      for(i=1 ; i<=n ; i++){
+        if(i%2==0){
+          printf("\n%d",i);
+        }
+      }*/
+
+
+      // Q.9 Print the first n odd numbers.
+
+      int n,i;
+      printf("Enter Value for n : ");
+      scanf("%d",&n);
+
+      for(i=1 ; i<=n ; i++){
+        if(i%2!=0){
+          printf("\n%d",i);
+        }
+      }
+
 }
