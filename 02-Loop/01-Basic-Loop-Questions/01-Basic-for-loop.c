@@ -43,54 +43,61 @@ void main()
 
   //     Output :
 
-      
-  //     5 6 7 8 9 10 
-      
-      
-     /* int a , b ;
-      printf("Enter Starting Value : ");
-      scanf("%d",&a);
+  //     5 6 7 8 9 10
 
-      printf("Enter Ending Value : ");
-      scanf("%d",&b);
+  /* int a , b ;
+   printf("Enter Starting Value : ");
+   scanf("%d",&a);
 
-      for(int i=a ; i<=b ; i++){
-        printf("\n %d",i);
-      }*/
+   printf("Enter Ending Value : ");
+   scanf("%d",&b);
 
+   for(int i=a ; i<=b ; i++){
+     printf("\n %d",i);
+   }*/
 
-      // Q.7 Print the first n natural numbers.
-      /*int n ,i ;
-      printf("Enter the Value of n : ");
-      scanf("%d",&n);
+  // Q.7 Print the first n natural numbers.
+  /*int n ,i ;
+  printf("Enter the Value of n : ");
+  scanf("%d",&n);
 
-      for(i=1 ; i<=n ; i++){
-        printf("\n%d",i);
-      }*/
+  for(i=1 ; i<=n ; i++){
+    printf("\n%d",i);
+  }*/
 
-      // Q.8 Print the first n even numbers.
+  // Q.8 Print the first n even numbers.
 
-      /*int n,i;
-      printf("Enter Value of n : ");
-      scanf("%d",&n);
+  /*int n,i;
+  printf("Enter Value of n : ");
+  scanf("%d",&n);
 
-      for(i=1 ; i<=n ; i++){
-        if(i%2==0){
-          printf("\n%d",i);
-        }
-      }*/
+  for(i=1 ; i<=n ; i++){
+    if(i%2==0){
+      printf("\n%d",i);
+    }
+  }*/
 
+  // Q.9 Print the first n odd numbers.
 
-      // Q.9 Print the first n odd numbers.
+  /*int n,i;
+  printf("Enter Value for n : ");
+  scanf("%d",&n);
 
-      int n,i;
-      printf("Enter Value for n : ");
-      scanf("%d",&n);
+  for(i=1 ; i<=n ; i++){
+    if(i%2!=0){
+      printf("\n%d",i);
+    }
+  }*/
 
-      for(i=1 ; i<=n ; i++){
-        if(i%2!=0){
-          printf("\n%d",i);
-        }
-      }
+  int n, i ,count = 0, arr[1000];
 
+  printf("Enter a number : ");
+  scanf("%d", &n);
+  i = n;
+
+  while(i<=0){
+    arr[1]=n%10;
+    count++;
+    
+  }
 }
